@@ -1,0 +1,93 @@
+body{
+    font: 15px sans-serif;
+    }
+#stickyheader {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+    height: 25px;
+	background: rgb(101, 109, 219); 
+	opacity: 70%;
+	color: white;
+	border:1px ridge rgb(66, 10, 117)
+	-moz-border-radius:7px;*/
+	-webkit-border-radius:7px;
+	border-radius:7px;*/
+	
+}
+
+.vignettes{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+#stickyalias {
+	
+	display: none;
+    height: 15px;
+}
+#unstickyheader {
+	
+	height: 150px;
+	background:rgb(209, 218, 217) url(../images/header2.png) no-repeat center;
+}
+label { display:inline-block; 
+	width:200px;
+
+}
+input { 
+	display:inline-block; 
+
+
+
+}
+
+
+
+
+#preavis {
+	
+	display: flex;
+	justify-content:center;
+	padding-left: 2em;
+	margin-top:2em ;
+	width: 100%;
+	height: 25px;
+	
+	background-color: rgb(233,231,230);
+	
+
+}
+
+form {
+	
+	width: 100%;
+	height: 800px;
+	background:rgb(209, 218, 217) url(../images/fond.jpg) no-repeat center;
+	background-size: contain;
+
+
+	padding-top:5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+	
+
+#texte{
+	padding-top: 5em ;
+	display: flex;
+    justify-content: center;
+	
+}
+textarea{
+	
+	width: 80%;
+	height: 300px;
+	
+
+}

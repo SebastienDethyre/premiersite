@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Sébastien Dethyre</title>
+	<link rel="stylesheet" href="../styles/style3.css"/>
+	<meta charset="utf-8"/>
+  
+
+
+  <link rel="shortcut icon" type="image/png" href="../images/symbol.png"/>
+	<script src="../js/jquery-3.5.1.min.js" type="text/javascript"></script>
+	<script src="../js/app.js" type="text/javascript"></script>
+</head>
+ <div id="unstickyheader">
+    <p>This is some text that comes before our <strong>Sticky
+    Header</strong></p>
+ 
+    <p>This is some text that comes before our <strong>Sticky
+    Header</strong></p>
+ 
+    <p>This is some text that comes before our <strong>Sticky
+    Header</strong></p>
+  </div>
+ 
+  <div id="stickyheader" height="20px" >
+        
+        <div class="vignettes"><a href="index.html" title="Accès page 1">Page 1</a></div>
+        <div class="vignettes"><a href="index2.html" title="Accès page 2">Page 2</a></div>
+        <div class="vignettes"><a href="index3.html" title="Accès page 3">Page 3</a></div>
+        <div class="vignettes">Sticky Text 4</div>
+	
+  </div>
+  <div id="stickyalias"></div>
+
+  
+    <form  METHOD=POST ENCTYPE="text/plain" ACTION="mailto:dethyres@hotmail.fr">
+      <br/>
+      <div>
+       
+        <br/>
+        <input type="radio" id="Hom" name="Sexe" value="Homme">
+  
+        <label for="Hom">Monsieur</label>
+      </div>
+      <div>
+        <input type="radio" id="Fem" name="Sexe" value="Femme"> 
+        <label for="Fem">Madame</label>
+      </div>
+      <br/>
+      <div style="padding-top:4em" class="entree">
+        <label for="nom">Nom :</label>
+        <input placeholder="Votre nom" name=Nom required minlength="0" maxlength="20" size="20">
+      </div>
+      <br/>
+      <div class="entree">
+        <label for="prenom">Prénom :</label>
+        <input placeholder="Votre prénom" name=Prenom required minlength="0" maxlength="20" size="20">
+      </div>
+      <br/>
+
+
+      <div class="entree">
+        <label for="telephone">Numéro de téléphone :</label>
+        <input placeholder="Votre numéro" id="telephone" type="tel" name="Telephone">
+      </div>
+      <br/>
+      <fieldset style="margin-top:4em">
+        <legend style="padding-left: 4em;">Votre avis nous intéresse ! Qu'avez-vous pensé de ce site ?</legend>
+        <div id="preavis">
+          <input type="checkbox" id="superbe" name="Avis" value="Exceptionnel">
+          <label for="superbe">Exceptionnel</label>
+          <input type="checkbox" id="smart" name="Avis" value="Maîtrisé">
+          <label for="smart">Maîtrisé</label>
+          <input type="checkbox" id="joli" name="Avis" value="Informatif">
+          <label for="joli">Informatif</label>
+          <input type="checkbox" id="bof" name="Avis" value="Correct">
+          <label for="bof">Correct</label>
+          <input type="checkbox" id="meh" name="Avis" value="Passable">
+          <label for="meh">Passable</label>
+          <input type="checkbox" id="nul" name="Avis" value="Pénible à consulter">
+          <label for="nul">Pénible à consulter</label>
+        </div>
+        <br/>
+     
+
+       
+         <div id="texte" ><textarea name="Impressions" placeholder="Décrivez vos impressions sur ce site"></textarea>
+      </div>
+      </fieldset>
+      <br/>
+      <fieldset style="margin-top:3em; padding: 1em">
+        <legend>Gardons le contact</legend>
+        <div>
+          <label for="pass">Veuillez renseigner votre adresse mail :</label>
+          <input placeholder="Votre adresse email" type="email" name=Email>
+        </div>
+        <input type="submit" value="Envoyer">
+      </fieldset>
+    </form> 
+
+
+    
+  
+
+
+</body>
+</html>	

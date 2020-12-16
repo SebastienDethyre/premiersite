@@ -1,0 +1,194 @@
+
+body{
+    font: 15px sans-serif;
+    }
+#stickyheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+    height: 25px;
+	background:rgb(230, 230, 230); 
+	opacity: 70%;
+	color: rgb (118, 118, 118);
+	border:1px ridge rgb(66, 10, 117)
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	
+}
+.vignettes{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+#stickyalias {
+	
+	display: none;
+    height: 25px;
+    }
+#unstickyheader {
+	/*margin-bottom: 15px;*/
+	width: 100.6%;
+	height: 150px;
+	background:rgb(230, 230, 230);
+	/* url(images/header2.png) no-repeat center;*/	
+}
+#preavis{
+
+	
+}
+#bio {
+	/*margin-top: 5px;*/
+	/*width: 100.6%;
+	height: 700px;
+	background:rgb(247, 247, 247) url(./images/fond.jpg) no-repeat center;
+	background-size: contain;*/
+	width: 100%;
+	height: 1200px;
+	background:rgb(209, 218, 217) url(../images/fond.jpg) no-repeat center;
+	background-size: contain;
+
+}
+/*body {s
+					margin: 0;
+					padding: 0;
+					background:rgb(209, 218, 217) url(fond.jpg) no-repeat center;
+					background-size: contain;
+					
+				}
+
+
+.header{
+
+	background: no-repeat left/cover url("header.png");
+	display: flex;
+	width:100%;
+	height:250px;
+	/*margin-bottom: 15px;
+	justify-content:flex-end;
+	min-width: 120px;
+    align-items: center;
+    color: rgb(1, 146, 190);
+	text-shadow: #000 0 0 .1em;
+	top:0; 
+}
+
+
+.h1 {
+	
+
+} 
+header.page-header > 
+
+.titre {
+	display: flex;
+	justify-content: center;
+	
+	font: bold calc(1em + 2 * (100vw - 120px) / 200) 'Dancing Script', cursive,
+        fantasy;
+	margin-right: 3%;
+	
+} 
+.subheader {
+	display: flex;
+	 position: fixed; 
+    top: 0;
+	width:100%;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around; 
+	font: bold calc(1em + 2 * (110vw - 80px) / 200) 'Dancing Script', cursive,
+    fantasy;
+	margin-top: 0,5%;
+	margin-right: 0%;
+	height:40px;
+}
+/*#stickyalias {
+	display: none;
+	height: 10px;
+  }
+  #unstickyheader {
+	margin-bottom: 15px;
+  }
+/*table { background: black; color: white;}
+                body, td {
+                        font: 13px sans-serif;
+                }
+                #stickyheader {
+                        width: 100%;
+                        height: 10px;
+                }
+                #stickyalias {
+                  display: none;
+                  height: 10px;
+                }
+                #unstickyheader {
+                  margin-bottom: 15px;
+                }
+                #othercontent {
+                  margin-top: 20px;
+                } 
+
+
+
+.intro {
+	background-color: rgb(233,231,230);
+	display:flex;
+	justify-content: space-between;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+	
+}
+.paragraphe {
+	margin: 10px;
+	padding: 15px;	
+	width: 50%;
+}
+video {
+	width:40%;
+	display: flex;
+	justify-content: center;
+}
+h4 {width:60%;
+	display: flex;
+	justify-content: center;
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+form {
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.champs {
+	width: 300px;
+	height: 200px;
+	
+	background-color: rgb(233,231,230);
+	
+
+}
+#conteneur{height:200px; width:100%;}
+ 
+#background{height:200px; width:100%}
+ 
+#b_cote_gauche{
+	background-color:rgb(209, 218, 217); 
+	width:20%; 
+	float:left; 
+	height:1400px; 
+	z-index:1;
+}
+#b_cote_droite{
+	background-color:rgb(209, 218, 217); 
+	width:20%; 
+	float:right; 
+	height:1400px; 
+	z-index:1;
+}
+ 
+/* #banniere{ width:1024px; height:1400px; margin-left:auto; margin-right:auto; margin-top:-200px; z-index:5; position:relative;}
